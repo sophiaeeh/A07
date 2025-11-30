@@ -1,0 +1,105 @@
+:root {
+    --accent-color: #800000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid var(--accent-color);
+    background-color: #ffffff;
+}
+
+a:hover,
+a:focus {
+    font-style: italic;
+    color: var(--accent-color);
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+ul {
+    margin-left: 2em;
+}
+
+header {
+    border-bottom: 3px solid var(--accent-color);
+    padding: 1em;
+    background-image: linear-gradient(30deg, #f6bb73 0%, #ffffff 30%, #ffffff 65%, #f6bb73 100%);
+}
+
+header img {
+    float: left;
+    margin-right: 1em;
+}
+
+header h2 {
+    font-size: 175%;
+}
+
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+}
+
+main {
+    clear: left;
+    padding: 0 1em 1em 1em;
+}
+
+main h1 {
+    font-size: 150%;
+    border-top: 3px solid var(--accent-color);
+    border-bottom: 3px solid var(--accent-color);
+}
+
+main h2 {
+    font-size: 130%;
+    color: var(--accent-color);
+}
+
+main h3 {
+    font-size: 105%;
+}
+
+blockquote {
+    font-style: italic;
+    padding: 0.5em 2em;
+}
+
+main img {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border: 4px double var(--accent-color);
+    border-radius: 10px;
+}
+
+footer {
+    background-color: var(--accent-color);
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 90%;
+}
+
+.large {
+    font-size: 125%;
+}
